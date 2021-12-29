@@ -366,13 +366,27 @@ textarea {
 body {
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 400;
+  color: #191826;
 }
 
 /*----------------------------
  section header
 ----------------------------*/
-header {
+.header {
   margin: 39.99px 0 0 24.15px;
+}
+
+.header__heading {
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.454545px;
+  font-weight: 700;
+  margin-top: 64.01px;
+}
+
+.header__paragraph {
+  line-height: 26px;
+  margin-top: 20px;
 }
 
 /*----------------------------
