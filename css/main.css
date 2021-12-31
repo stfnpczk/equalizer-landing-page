@@ -382,8 +382,8 @@ body {
 }
 
 .header {
-  margin: 39.99px 0 0 24.15px;
-  max-width: 375px;
+  margin: 39.99px 24px 24.15px;
+  max-width: 399px;
 }
 
 .header__heading {
@@ -517,8 +517,35 @@ body {
 }
 
 /*----------------------------
-      section ???
-----------------------------*/
-/*----------------------------
       section footer
 ----------------------------*/
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 64px 24px 80px;
+}
+
+.footer__info {
+  margin: 32.01px 0 64px;
+  line-height: 26px;
+  max-width: 399px;
+}
+
+.footer__info .email {
+  font-weight: 700;
+}
+
+.footer__social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
