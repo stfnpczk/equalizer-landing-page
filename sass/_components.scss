@@ -1,39 +1,145 @@
 /*----------------------------
  section header
 ----------------------------*/
+.header-wrap{
+  display: flex;
+  justify-content: center;
+  // max-width: 400px;
+}
+
 .header {
-  margin: 39.99px 0 0 24.15px; 
+  margin: 39.99px 0 0 24.15px;
+  max-width: 375px;
 
-&__heading {
-  font-size: 40px;
-  line-height: 48px;
-  letter-spacing: -0.454545px;
-  font-weight: 700;
-  margin-top: 64.01px;
+  &__heading {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.454545px;
+    font-weight: 700;
+    margin-top: 64.01px;
+  }
+
+  &__paragraph {
+    line-height: 26px;
+    margin-top: 20px;
+    // max-width: 327px;
+  }
+
+
 }
 
-&__paragraph{
-  line-height: 26px;
-  margin-top: 20px;
-  // max-width: 327px;
-}
-
-}
-  
 /*----------------------------
-      section ???
+      features
  ----------------------------*/
+.features {
+  // background-color: $black;
+  &__bg-black {
+    background-color: $black;
+    background-image: url(../assets/bg-pattern-2.svg);
+    background-repeat: no-repeat;
+    background-position: top ;
+    background-size: 280px 420px;
+    border-radius: 12px;
+    // width: 375px;
+    height: 600px;
+    margin-top: 166px;
+  }
   
+  &__bg-black::before{
+  }
+
+  &__wrapper-orange{
+    display: flex;
+    justify-content: center;
+  }
+
+  &__bg-orange {
+    display: flex;
+    flex-direction: column;
+    background-color: $orange;
+    border-radius: 12px;
+    color: $white;
+    height: 450px;
+    width: 375px;
+    padding: 48px 36px 48px;
+    margin: -220px 0 0;
+   
+  }
+
+  &__heading {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+  }
+
+  &__paragraph {
+    font-size: 18px;
+    line-height: 28px;
+    margin: 12px 0 36px 0;
+  }
+
+  &__price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 32px;
+
+    .cost {
+      font-size: 65px;
+      line-height: 52px;
+      font-weight: 700;
+      margin-right: 16px;
+    }
+
+    .perMonth {
+      font-size: 20px;
+      line-height: 32px;
+      letter-spacing: -0.2px;
+    }
+  }
+
+  &__button {
+    font-family: "IBM Plex Sans", sans-serif;
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    line-height: 32px;
+    align-items: center;
+    justify-content: center;
+    // align-content: center;
+
+    max-width: 296px;
+    height: 61px;
+  }
+
+  &__button--iOS {
+    background-color: $black;
+    color: $white;
+  }
+
+  &__button--android {
+    margin-top: 16px;
+  }
+
+  &__iOS-label {
+    margin-left: 7.92px;
+  }
+
+  &__android-label {
+    margin-left: 7.8px;
+  }
   
-  
+}
+
+
+
 /*----------------------------
       section ???
 ----------------------------*/
-  
-  
-  
+
 /*----------------------------
       section footer
 ----------------------------*/
-  
-  
