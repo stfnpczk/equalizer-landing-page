@@ -399,6 +399,12 @@ body {
   }
 }
 
+@media only screen and (min-width: 1440px) {
+  .page-wrapper {
+    max-width: 1440px;
+  }
+}
+
 .header {
   margin: 39.99px 24px 166px;
 }
@@ -406,6 +412,12 @@ body {
 @media only screen and (min-width: 768px) {
   .header {
     margin: 61.99px 0 249px 39px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .header {
+    margin: 61.99px 0 321px 164.5px;
   }
 }
 
@@ -427,6 +439,15 @@ body {
   }
 }
 
+@media only screen and (min-width: 1440px) {
+  .header__heading {
+    font-size: 88px;
+    line-height: 88px;
+    letter-spacing: -1px;
+    max-width: 1015px;
+  }
+}
+
 .header__paragraph {
   line-height: 26px;
   margin: 28px 0 0;
@@ -441,12 +462,26 @@ body {
   }
 }
 
+@media only screen and (min-width: 1440px) {
+  .header__paragraph {
+    font-size: 20px;
+    line-height: 34px;
+    max-width: 825px;
+  }
+}
+
 /*----------------------------
       features section
  ----------------------------*/
 @media only screen and (min-width: 768px) {
   main {
     margin: 0 39px 0 33px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  main {
+    margin: 0 165px 0;
   }
 }
 
@@ -483,6 +518,41 @@ body {
   }
 }
 
+@media only screen and (min-width: 1440px) {
+  .features__bg-black {
+    background-size: 312px 468px;
+    width: 1110px;
+    height: 600px;
+    background-position: 336px -40px;
+    max-width: 1110px;
+  }
+}
+
+.features__mobile-img {
+  display: none;
+  width: 270.21px;
+  height: 556px;
+}
+
+@media only screen and (min-width: 768px) {
+  .features__mobile-img {
+    display: block;
+    position: relative;
+    top: -138px;
+    left: 9%;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .features__mobile-img {
+    position: relative;
+    width: 312px;
+    height: 642px;
+    top: -213px;
+    left: 102px;
+  }
+}
+
 .features__bg-orange {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -502,12 +572,24 @@ body {
 
 @media only screen and (min-width: 768px) {
   .features__bg-orange {
-    width: 327px;
+    width: 303px;
     z-index: 3;
     position: relative;
     top: -450px;
-    left: 34.3390804%;
+    left: 239px;
+    padding: 48px;
     margin: 0 0 0 0;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .features__bg-orange {
+    width: 333px;
+    height: 519px;
+    position: relative;
+    top: -510px;
+    left: 569px;
+    padding: 58px 59px 48px 54px;
   }
 }
 
@@ -517,10 +599,25 @@ body {
   font-weight: 700;
 }
 
+@media only screen and (min-width: 1440px) {
+  .features__heading {
+    font-size: 40px;
+    line-height: 52px;
+  }
+}
+
 .features__paragraph {
   font-size: 18px;
   line-height: 28px;
   margin: 12px 0 36px 0;
+}
+
+@media only screen and (min-width: 1440px) {
+  .features__paragraph {
+    font-size: 20px;
+    line-height: 34px;
+    margin: 22px 0 39px 0;
+  }
 }
 
 .features__price {
@@ -535,6 +632,12 @@ body {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 32px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .features__price {
+    margin-bottom: 46px;
+  }
 }
 
 .features__price .cost {
@@ -588,21 +691,6 @@ body {
   margin-left: 7.8px;
 }
 
-.features__mobile-img {
-  display: none;
-  width: 270.21px;
-  height: 556px;
-}
-
-@media only screen and (min-width: 768px) {
-  .features__mobile-img {
-    display: block;
-    position: relative;
-    top: -138px;
-    left: 9%;
-  }
-}
-
 /*----------------------------
       footer section
 ----------------------------*/
@@ -624,6 +712,31 @@ body {
         -ms-flex-align: start;
             align-items: flex-start;
     max-width: 696px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .footer {
+    margin: -386px 39px 0 33px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    max-width: 696px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .footer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: -423px 165px 91px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    max-width: 1110px;
+    gap: 137.76px;
   }
 }
 
@@ -650,6 +763,14 @@ body {
             flex-direction: row;
     max-width: 696px;
     gap: 230px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .footer__info {
+    max-width: 1110px;
+    margin: 0;
+    gap: 359px;
   }
 }
 
