@@ -379,7 +379,26 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 100%;
+  background-image: url(../assets/bg-main-mobile.png);
+  background-size: 480px;
+  background-repeat: no-repeat;
+  background-position: left 32px top -158px;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-image: url(../assets/bg-pattern-1.svg), url(../assets/bg-main-tablet.png);
+    background-size: 266.67px 400px, 1036px;
+    background-position: right top -32px, left -212px top -122px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  body {
+    background-image: url(../assets/bg-pattern-1.svg), url(../assets/bg-main-desktop.png);
+    background-size: 312px 468px, 1794px;
+    background-position: right top -40px, left -238px top -282px;
+  }
 }
 
 .page-wrapper {
@@ -427,6 +446,7 @@ body {
   letter-spacing: -0.454545px;
   font-weight: 700;
   max-width: 327px;
+  margin: 64.01px 0 20px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -703,16 +723,6 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 64px 24px 80px;
-}
-
-@media only screen and (min-width: 768px) {
-  .footer {
-    margin: -386px 39px 0 33px;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    max-width: 696px;
-  }
 }
 
 @media only screen and (min-width: 768px) {
