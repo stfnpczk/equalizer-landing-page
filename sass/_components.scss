@@ -46,7 +46,6 @@ body {
 
   @media only screen and (min-width: 768px) {
     margin: 61.99px 0 249px 39px;
-    // max-width: 696px;
   }
 
   @media only screen and (min-width: 1440px) {
@@ -124,7 +123,6 @@ body {
     background-position: top;
     background-size: 280px 420px;
     border-radius: 12px;
-    // width: 375px;
     height: 600px;
     max-width: 375px;
 
@@ -162,7 +160,6 @@ body {
       height: 642px;
       top: -213px;
       left: 102px;
-      // left: 9%;
     }
   }
 
@@ -183,7 +180,6 @@ body {
       position: relative;
       top: -450px;
       left: 239px;
-      // left: 34.3390804%;
       padding: 48px;
       margin: 0 0 0 0;
     }
@@ -194,9 +190,7 @@ body {
       position: relative;
       top: -510px;
       left: 569px;
-      // left: 34.3390804%;
       padding: 58px 59px 48px 54px;
-      // margin: 0 0 0 0;
     }
   }
 
@@ -257,7 +251,6 @@ body {
     line-height: 32px;
     align-items: center;
     justify-content: center;
-    // align-content: center;
 
     max-width: 296px;
     height: 61px;
@@ -295,8 +288,6 @@ body {
 .footer {
   display: flex;
   flex-direction: column;
-  // justify-content: center;
-  // align-items: center;
   margin: 64px 24px 80px;
 
   @media only screen and (min-width: 768px) {
@@ -319,7 +310,6 @@ body {
     flex-direction: column;
     gap: 64px;
     margin: 32.01px 0 64px;
-    // padding: 0 36px 0;
     line-height: 26px;
     max-width: 327px;
 
