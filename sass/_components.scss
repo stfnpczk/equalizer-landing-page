@@ -266,10 +266,17 @@ body {
   &__button--iOS {
     background-color: $black;
     color: $white;
+
+    &:hover {
+      background-color: $turquoise;
+    }
   }
 
   &__button--android {
     margin-top: 16px;
+    &:hover {
+      background-color: $mango;
+    }
   }
 
   &__iOS-label {
@@ -347,6 +354,12 @@ body {
 
     @media only screen and (min-width: 768px) {
       align-items: center;
+    }
+  }
+
+  &__icon {
+    &:hover {
+      fill: hsla(12, 94%, 65%, 1);
     }
   }
 }

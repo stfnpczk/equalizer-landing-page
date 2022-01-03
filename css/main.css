@@ -699,8 +699,16 @@ body {
   color: #fcf9f8;
 }
 
+.features__button--iOS:hover {
+  background-color: #65e2db;
+}
+
 .features__button--android {
   margin-top: 16px;
+}
+
+.features__button--android:hover {
+  background-color: #ffba66;
 }
 
 .features__iOS-label {
@@ -811,4 +819,8 @@ body {
         -ms-flex-align: center;
             align-items: center;
   }
+}
+
+.footer__icon:hover {
+  fill: #fa7352;
 }
