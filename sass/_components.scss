@@ -95,27 +95,30 @@ body {
   }
 }
 
+
 /*----------------------------
       features section
  ----------------------------*/
 
-@media only screen and (min-width: 768px) {
-  main {
-    margin: 0 39px 0 33px;
-  }
-}
 
-@media only screen and (min-width: 1440px) {
-  main {
-    margin: 0 165px 0;
-  }
-}
 
 .features {
   display: flex;
   flex-direction: column;
   justify-content: center;
 
+  @media only screen and (min-width: 768px) {
+    & {
+      margin: 0 39px 0 33px;
+    }
+  }
+  
+  @media only screen and (min-width: 1440px) {
+    & {
+      margin: 0 165px 0;
+    }
+  }
+  
   &__bg-black {
     background-color: $black;
     background-image: url(../assets/bg-pattern-2.svg);
@@ -175,7 +178,6 @@ body {
     margin: -220px 0 0;
 
     @media only screen and (min-width: 768px) {
-      width: 303px;
       z-index: 3;
       position: relative;
       top: -450px;
@@ -187,7 +189,6 @@ body {
     @media only screen and (min-width: 1440px) {
       width: 333px;
       height: 519px;
-      position: relative;
       top: -510px;
       left: 569px;
       padding: 58px 59px 48px 54px;
@@ -209,6 +210,7 @@ body {
     font-size: 18px;
     line-height: 28px;
     margin: 12px 0 36px 0;
+
     @media only screen and (min-width: 1440px) {
       font-size: 20px;
       line-height: 34px;
@@ -291,18 +293,18 @@ body {
   margin: 64px 24px 80px;
 
   @media only screen and (min-width: 768px) {
-    margin: -386px 39px 0 33px;
     align-items: flex-start;
     max-width: 696px;
+    margin: -386px 39px 0 33px;
   }
 
   @media only screen and (min-width: 1440px) {
-    //margin-top bg-orange -> margin-top footer to black minus height orange
+    //margin-top: bg-orange -> margin-top footer to black minus height orange | fix this in next iteration
     flex-direction: row;
-    margin: -423px 165px 91px;
     align-items: flex-start;
     max-width: 1110px;
     gap: 137.76px;
+    margin: -423px 165px 91px;
   }
 
   &__info {
@@ -314,10 +316,10 @@ body {
     max-width: 327px;
 
     @media only screen and (min-width: 768px) {
-      margin: 32.01px 0 85px;
       flex-direction: row;
       max-width: 696px;
       gap: 230px;
+      margin: 32.01px 0 85px;
     }
 
     @media only screen and (min-width: 1440px) {
@@ -329,6 +331,7 @@ body {
 
   &__paragraph {
     max-width: 327px;
+    
     @media only screen and (min-width: 768px) {
       max-width: 366px;
     }
@@ -349,7 +352,7 @@ body {
 
   &__icon {
     &:hover {
-      fill: hsla(12, 94%, 65%, 1);
+      fill: $orange
     }
   }
 }
