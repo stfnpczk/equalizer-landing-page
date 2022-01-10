@@ -1,5 +1,5 @@
 /*----------------------------
- header section
+ body layout /background images
 ----------------------------*/
 
 body {
@@ -27,6 +27,9 @@ body {
   }
 }
 
+/*----------------------------
+ header section
+----------------------------*/
 .page-wrapper {
   display: flex;
   flex-direction: column;
@@ -143,11 +146,15 @@ body {
   }
 
   &__mobile-img {
-    display: none;
-    width: 16.8881rem;
-    height: 34.75rem;
-
+    position: relative;
+    width: 208.97px;
+    height: 430px;
+    top: -98px;
+    left: 80.67px;
+    
     @media only screen and (min-width: 768px) {
+      width: 16.8881rem;
+      height: 34.75rem;
       display: block;
       position: relative;
       top: -8.625rem;
@@ -155,7 +162,6 @@ body {
     }
 
     @media only screen and (min-width: 1440px) {
-      position: relative;
       width: 19.5rem;
       height: 40.125rem;
       top: -13.3125rem;
